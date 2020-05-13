@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">DoorPhone</string>
+    <string name="package_name">com.d0pam1n.doorphone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_drawer_item_settings">设置</string>
+    <string name="nav_drawer_item_about">关于</string>
+    <string name="nav_drawer_item_close">关闭</string>
+
+    <string name="service_name">DoorPhone Service</string>
+    <string name="notification_registered">注册</string>
+    <string name="notification_not_registered">未注册</string>
+
+    <string name="message_not_media_url">未指定视频网址</string>
+    <string name="message_could_not_play_video">播放视频时出错</string>
+
+    <string name="quit_app_text">您确定要退出该应用程序吗？</string>
+    <string name="quit_app_yes">是</string>
+    <string name="quit_app_no">否</string>
+
+    <!-- INTENT PARAMS -->
+    <string name="param_call_id">CALL_ID</string>
+    <string name="param_account_id">ACCOUNT_ID</string>
+    <string name="param_dtmf_open_door">DTMF_OPEN_DOOR</string>
+    <string name="param_close_after_call">CLOSE_AFTER_CALL</string>
+    <string name="param_player_playing">PLAYER_PLAYING</string>
+    <string name="param_incoming_call">INCOMING_CALL</string>
+
+    <!-- Notifications -->
+    <string name="notif_incoming_call_intent_action">NOTIF_ACCEPT_CALL</string>
+    <string name="notif_incoming_call_intent_action_hangup">NOTIF_HANGUP_CALL</string>
+    <string name="notif_incoming_call_intent_action_open_door">NOTIF_OPEN_DOOR</string>
+    <string name="notif_incoming_call_title">来电</string>
+    <string name="notif_incoming_call_activ_title">对话进行中</string>
+    <string name="notif_incoming_call_text">有人响了门铃</string>
+    <string name="notif_incoming_call_action_accept">接受</string>
+    <string name="notif_incoming_call_action_hangup">挂断</string>
+    <string name="notif_incoming_call_action_open_door">开门</string>
+
+
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_about">关于</string>
+
+    <!-- SIP settings -->
+    <string name="pref_header_general">SIP</string>
+
+    <string name="pref_header_sip_account">SIP Account</string>
+
+    <string name="settings_sip_username_title">用户名</string>
+    <string name="settings_sip_password_title">密码</string>
+    <string name="settings_sip_realm_title">Realm</string>
+    <string name="settings_sip_host_title">Host</string>
+    <string name="settings_sip_port_title">Port</string>
+    <string name="settings_sip_transport_title">传输类型</string>
+
+    <string-array name="settings_sip_transport_values">
+        <item>TCP</item>
+        <item>UDP</item>
+        <item>TLS</item>
+    </string-array>
+
+
+    <string name="pref_header_echo_cancellation">回声消除</string>
+
+    <string name="settings_echo_cancellation_tail_length">Tail length (ms)</string>
+    <string name="settings_echo_cancellation_noise_reduction">噪音消除</string>
+    <string name="settings_echo_cancellation_aggressiveness">侵略性</string>
+
+    <string-array name="settings_echo_cancellation_aggressiveness_entries">
+        <item>标准</item>
+        <item>保守</item>
+        <item>中等</item>
+        <item>激进</item>
+    </string-array>
+
+    <string-array name="settings_echo_cancellation_aggressiveness_entry_values">
+        <item>ECHO_AGGRESSIVENESS_DEFAULT</item>
+        <item>ECHO_AGGRESSIVENESS_CONVERVATIVE</item>
+        <item>ECHO_AGGRESSIVENESS_MODERATE</item>
+        <item>ECHO_AGGRESSIVENESS_AGGRESSIV</item>
+    </string-array>
+
+
+    <!-- Video settings -->
+    <string name="pref_header_data_sync">视频</string>
+    <string name="settings_video_path_title">视频路径</string>
+    <string name="settings_video_format">视频格式</string>
+
+    <string-array name="settings_video_format_entries">
+        <item>Best fit</item>
+        <item>Fit horizontal</item>
+        <item>Fit vertical</item>
+        <item>Fill</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="settings_video_format_entry_values">
+        <item>SURFACE_BEST_FIT</item>
+        <item>SURFACE_FIT_HORIZONTAL</item>
+        <item>SURFACE_FIT_VERTICAL</item>
+        <item>SURFACE_FILL</item>
+        <item>SURFACE_16_9</item>
+        <item>SURFACE_4_3</item>
+        <item>SURFACE_ORIGINAL</item>
+    </string-array>
+
+    <!-- Audio settings -->
+    <string name="pref_header_audio">Audio</string>
+    <string name="settings_audio_use_ringtone">铃声有效</string>
+    <string name="settings_audio_use_vibrator">通话时振动</string>
+    <string name="settings_audio_ringtone"></string>
+
+    <!-- Control commands settings -->
+    <string name="pref_header_commands">指令</string>
+    <string name="settings_commands_unlock_dtmf">DTMF / 开门器</string>
+    <string name="settings_commands_doorpi_number">DoorPi-Nummer</string>
+
+    <!-- Notification settings -->
+    <string name="pref_header_notifications">通知</string>
+    <string name="settings_notification_show">通话通知</string>
+
+    <!-- Advanced settings -->
+    <string name="pref_header_advanced">高级设置</string>
+    <string name="settings_advanced_start_service_on_boot">开机启动</string>
+    <string name="settings_advanced_close_after_call">挂断电话后关闭</string>
+    <string name="settings_advanced_start_app_on_incoming_call">致电时打开应用</string>
+
+
+    <!-- Crash report -->
+    <string name="crash_toast_text">DoorPhone crashed... Sorry for that!</string>
+
+    <!-- ABOUT -->
+    <string name="about_link_repository">GitHub Repository</string>
+    <string name="about_link_bugs">您发现错误了吗？ 在这里报告他</string>
+    <string name="about_author_mail">Andi.Dopamin@gmail.com</string>
+    <string name="about_project_name">DoorPhone</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_license_title">Lizenz</string>
+    <string name="about_project_license">General Public License (GPL) 3</string>
+    <string name="about_title_bugs">Einen Fehler melden</string>
+    <string name="about_title_author">Autor</string>
+    <string name="about_author">Andreas Pfister</string>
+    <string name="about_author_git_name">d0pam1n</string>
+    <string name="about_title_mail">Eine E-Mail senden</string>
+    <string name="about_title_libs">Open Source Bibliotheken</string>
+    <string name="about_lib_pjsip">PJSIP</string>
+    <string name="about_lib_pjsip_license">General Public License (GPL) 2 oder later</string>
+    <string name="about_lib_libvlc">LibVLC</string>
+    <string name="about_lib_libvlc_license">Lesser General Public License (LGPL) 2</string>
+
+    <string name="about_error_version_not_found">Error getting version number.</string>
+
+</resources>

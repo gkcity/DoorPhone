@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DoorPhone.iml" filepath="$PROJECT_DIR$/DoorPhone.iml" group="DoorPhone" />
+      <module fileurl="file://$PROJECT_DIR$/app/DoorPhone-app.iml" filepath="$PROJECT_DIR$/app/DoorPhone-app.iml" group="DoorPhone/app" />
+      <module fileurl="file://$PROJECT_DIR$/siplib/DoorPhone-siplib.iml" filepath="$PROJECT_DIR$/siplib/DoorPhone-siplib.iml" group="DoorPhone/siplib" />
       <module fileurl="file://$PROJECT_DIR$/DoorPhone_Android.iml" filepath="$PROJECT_DIR$/DoorPhone_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/siplib/siplib.iml" filepath="$PROJECT_DIR$/siplib/siplib.iml" />
